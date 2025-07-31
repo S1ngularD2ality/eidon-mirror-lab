@@ -1,8 +1,7 @@
-# Problem 2: Mirror String Collector
+def mirror_collector(words):
+    return [word for word in words if word == word[::-1]]
 
-Return all strings that are palindromes from a list.
-
-Example:
-```python
-mirror_collector(["radar", "gate"]) → ["radar"]
-
+# Example Tests
+print(mirror_collector(["level", "code", "radar"]))  # ['level', 'radar']
+print(mirror_collector(["soul", "mirror", "eye"]))   # ['eye']
+print(mirror_collector(["openai", "eidon"]))         # []
