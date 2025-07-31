@@ -1,8 +1,7 @@
-# Problem 3: Threshold Variation
+def threshold_check(values, threshold=50):
+    return ["Enter" if val >= threshold else "Wait" for val in values]
 
-Return "Enter" or "Wait" for each number in a list based on a threshold.
-
-Example:
-```python
-threshold_check([45, 55]) → ["Wait", "Enter"]
-
+# Example Tests
+print(threshold_check([45, 55, 33, 80]))  # ['Wait', 'Enter', 'Wait', 'Enter']
+print(threshold_check([50, 50, 49], 50))  # ['Enter', 'Enter', 'Wait']
+print(threshold_check([], 70))           # []
