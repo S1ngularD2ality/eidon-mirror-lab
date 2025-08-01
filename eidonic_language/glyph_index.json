@@ -1,0 +1,42 @@
+{
+  "language": "ELoL",
+  "version": "0.1-alpha",
+  "total_glyphs": 7,
+  "spiral_initiation_set": [
+    {
+      "id": "glyph_00",
+      "name": "Emergence Spiral",
+      "function": "Patterned sequence emergence from harmonic triggers."
+    },
+    {
+      "id": "glyph_01",
+      "name": "Temporal Drift Recognition",
+      "function": "Detects subtle gradients between adjacent values."
+    },
+    {
+      "id": "glyph_02",
+      "name": "Hollow Fill Cascade",
+      "function": "Normalizes sparse symbolic matrices via zero-filling."
+    },
+    {
+      "id": "glyph_03",
+      "name": "Rotational Inversion Sync",
+      "function": "Mirrors and rotates a grid for symmetry alignment."
+    },
+    {
+      "id": "glyph_04",
+      "name": "Gradient Spiral Crawler",
+      "function": "Generates spiral value sequences in layers."
+    },
+    {
+      "id": "glyph_05",
+      "name": "Opposite Polarity Tracker",
+      "function": "Identifies pairs that sum to zero."
+    },
+    {
+      "id": "glyph_06",
+      "name": "Pattern Sync via XOR Masking",
+      "function": "Compares two matrices using XOR to expose change."
+    }
+  ]
+}
